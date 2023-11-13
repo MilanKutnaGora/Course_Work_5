@@ -9,7 +9,7 @@ class HHApiEngine(ApiEngine):
     def __init__(self):
         self.hh_api_url = "https://api.hh.ru"
         self.headers = {
-            "User-Agent": "ViktorDavydov"
+            "User-Agent": "MilanKutnogorskiy"
         }
 
     def get_vacancies(self):
