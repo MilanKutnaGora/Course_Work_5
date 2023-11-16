@@ -1,10 +1,11 @@
 import psycopg2
 from api_hh import HHApiEngine
 from dbm import DBScriptor
-# from json_manager import HHJsonManager
-# from config import config
+from employs import get_empl_items
+from joson_manager import HHJsonManager
+from configuration import config
 
-# from employees_ids import get_empl_items
+from employs import get_empl_items
 from dbm import DBManager
 
 # Создание переменных с названиями файлов
