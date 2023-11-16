@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS vacancies;
 
 CREATE TABLE employers (
     employer_id int PRIMARY KEY NOT NULL,
-    employer_name varchar(50)
+    employer_name varchar(100)
 );
 
 ---
