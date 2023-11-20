@@ -76,7 +76,7 @@ class DBScriptor(DBOperator):
 
     def create_db(self, params, db_name) -> None:
         """Создание БД"""
-        connection = psycopg2.connect(params)
+        connection = psycopg2.connect(**params)
         connection.autocommit = True
         cur = connection.cursor()
         cur.execute(f"DROP DATABASE IF EXISTS {db_name};")
